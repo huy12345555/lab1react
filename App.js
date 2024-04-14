@@ -1,21 +1,29 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+//import { StyleSheet, Text, View } from 'react-native';
+//import Hellowork from "./src/Helloword";
+//import { View, Button, Text, TouchableOpacity, StyleSheet } from "react-native";
+//import { View, Button, Text, TouchableOpacity, StyleSheet } from "react-native";
+//import CapturingTaps from "./src/CapturingTaps";
+//import CustomComponent from "./src/CustomComponent";
+//import { Text, Button, View } from "react-native";
+//import { View, Text, StyleSheet } from "react-native";
+//import State from "./src/State";
+//import Student from "./src/Student";
+//import { TextInput, Text, View, StyleSheet, Button } from "react-native";
+//import Building from "./src/Building";
+import { SectionList,Text,View,SafeAreaView,StyleSheet } from "react-native";
+import Long from "./src/Long";
 
-export default function App() {
+const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    //<Hellowork />
+   //<CapturingTaps/>
+   //<CustomComponent/>
+   //<State/>
+   //<Student></Student>
+   //<Building></Building>
+   <Long></Long>
   );
-}
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default App;
