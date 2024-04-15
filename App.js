@@ -11,8 +11,10 @@ import React from "react";
 //import Student from "./src/Student";
 //import { TextInput, Text, View, StyleSheet, Button } from "react-native";
 //import Building from "./src/Building";
-import { SectionList,Text,View,SafeAreaView,StyleSheet } from "react-native";
-import Long from "./src/Long";
+//import { SectionList,Text,View,SafeAreaView,StyleSheet } from "react-native";
+//import Long from "./src/Long";
+import { StyleSheet, Text, TouchableOpacity, Vibration, View } from "react-native"
+import Lab1P2Cal from "./src/Lab1P2Cal";
 
 const App = () => {
   return (
@@ -22,7 +24,8 @@ const App = () => {
    //<State/>
    //<Student></Student>
    //<Building></Building>
-   <Long></Long>
+   //<Long></Long>
+   <Lab1P2Cal></Lab1P2Cal>
   );
 };
 
